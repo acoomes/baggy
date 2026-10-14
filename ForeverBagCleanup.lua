@@ -5,14 +5,14 @@ if not combinedBags then
 	return
 end
 
-local anchor = combinedBags.PortraitButton or combinedBags:GetPortrait()
+local anchor = BagItemSearchBox
 if not anchor then
 	return
 end
 
 local button = CreateFrame("Button", ADDON_NAME .. "Button", combinedBags)
 button:SetSize(24, 24)
-button:SetPoint("LEFT", anchor, "RIGHT", 3, 0)
+button:SetPoint("RIGHT", anchor, "LEFT", -5, 0)
 button:SetFrameLevel(math.max(combinedBags:GetFrameLevel(), anchor:GetFrameLevel()) + 1)
 
 button:SetNormalAtlas("bags-button-autosort-up")

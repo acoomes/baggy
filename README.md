@@ -8,7 +8,7 @@ follows the game's built-in rules and respects bags marked to be ignored.
 
 ## Download
 
-Download the ZIP from the [latest release](https://github.com/acoomes/baggy/releases/latest).
+Download [ForeverBagCleanup-1.0.1.zip](https://raw.githubusercontent.com/acoomes/baggy/main/dist/ForeverBagCleanup-1.0.1.zip).
 
 ## Install
 
